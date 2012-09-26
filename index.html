@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
@@ -68,4 +69,36 @@ $ git checkout gh-pages
       </div>
     </div>
   </body>
+=======
+<head>
+<meta charset="UTF-8">
+<title>Contix Logo</title>
+
+<style>
+*		{ padding: 0px; margin: 0px;}
+body	{ width: 100%; height: 100%; background:white;}
+
+#logo2	{ display: block; position:relative; width: 450px; height: 450px; margin: 50px auto; border-radius:100%; overflow: hidden;
+background-image:
+ /* Lower Gray */ -webkit-radial-gradient(278px 440px, 100% 100%, gray 15%, #333 50%, transparent 50%),
+ /* Green */ -webkit-radial-gradient(297px 186px, 95% 95%, transparent 55%, #91BA20 55%, #242D02 76%),
+  /*Top Gray */ -webkit-radial-gradient(300px 210px, 78% 120%, gray 25%, #333 70%, transparent 70%); }
+
+#logo2:before,
+#logo2:after	{ display: block; content:''; position:absolute; height: 50%; width: 50%; border-top-right-radius:100%; background: -webkit-radial-gradient(0% 110%, 160% 100%, #ED0C0C 55%, #5b0000 120%); }
+#logo2:before	{ -webkit-transform: rotate(-45deg); left: 156px; top:16px;  /* Top Red */  }
+#logo2:after	{ -webkit-transform: rotate(120deg); left: 101px; top:224px; /* Bottom Red */ }
+span			{ display: block; position:relative; z-index:1; width: 100%; height: 100%; /* BG Color */ background-image:-webkit-radial-gradient(center center, 100% 100%, white 34%, transparent 34%);}
+span:before,
+span:after		{ content:''; display: block; position:absolute; border-bottom: 115px solid transparent; border-top: 115px solid transparent; border-right-style: solid;  /* BG Color */ border-right-color: white;}
+span:before		{ top: 41.2%; left: 6.0%; border-right-width: 218px; -webkit-transform: rotate(-45deg); }
+span:after		{ top: 24.6%; left: 17%; border-right-width: 415px; }
+</style>
+
+</head>
+
+<body>
+	<div id="logo2"><span></span></div>
+</body>
+>>>>>>> master
 </html>
